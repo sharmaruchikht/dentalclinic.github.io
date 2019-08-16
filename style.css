@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jun, 2019, 8:24:15 PM
+    Author     : sanu
+*/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    line-height: 1.42857143;
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    min-height: 600px;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff ;
+    background: url("img/1.png");
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0,128,0,0.4);
+    max-width: 660px;
+}
+.logo img{
+    float: left;
+    height:auto;
+    width:80px;
+}
+#item_list {
+    padding-top: 50px;
+}
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#image{
+    float:right;
+    padding:0px 20px 20px 0px;
+    margin:1px;
+    width:200px;
+}
+#image1{
+   float:right;
+    padding:0px 20px 20px 0px;
+    margin:1px;
+    width:500px;  
+}
+#container p{
+    display:block;
+    font-family: Roboto sans-serif;
+}
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 5px 0;
+    background-color: #000 ;
+    color: #fff;
+    border-top: 1px solid;
+    margin: auto;
+}
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+.column-style{
+    border: 1px solid#fff;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
